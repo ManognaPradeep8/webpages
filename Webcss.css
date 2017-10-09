@@ -1,0 +1,97 @@
+/* Removing margins andpadding */ 
+*{
+  padding: 0px;
+  margin:0px;
+  list-style-type:none;
+}
+header,footer,section,article,aside,nav{
+display:block;
+}
+
+/* Centering the website */
+
+.container{
+   width: 1000px;
+   margin: 0px auto;
+   }
+ 
+.pic{
+   float:left;
+   width: 200px;
+
+
+}
+.clear{
+   clear:both; 
+}
+.topnav{
+  width : 900px;
+}
+
+.topnav ul li{
+  float: left;
+  padding: 20px 20px;
+  margin:10px;
+}
+form{  
+  float:left;
+  margin:20px;
+}
+
+.new{
+ float: left;
+ width:600px;
+}
+
+.second{
+  float: left;
+  width:400px;
+  
+}
+
+.second div{
+   padding: 0px 0px 20px 0px;
+   margin:20px;
+
+}
+tr:nth-child(2n){
+
+Background-color: Pink;
+
+}
+table{
+border-collapse: collapse;
+border: 2px solid black;
+
+}
+thead{
+background-color: Yellow;
+
+}
+th,td{
+border: 2px solid black;
+padding: 5px;
+
+}
+
+caption{
+
+margin:15px 0px 0px 0px;
+font:  Bold Italic 15px Tahoma;
+
+
+}
+
+.foot{
+    clear:both;
+    text-align: center;
+	padding:50px 0px;
+	}
+footer{
+
+  padding:30px 5px;
+  margin:30px;
+}
+.second h3{
+margin:10px;
+}
